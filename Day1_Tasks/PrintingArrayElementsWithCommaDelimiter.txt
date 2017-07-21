@@ -1,0 +1,6 @@
+var stringArray =["h","o","l","E"];
+var result = '"';
+
+result = stringArray.join(", ");
+
+console.log(result);

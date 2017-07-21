@@ -1,0 +1,24 @@
+function travelPrice(days){
+
+var days = parseInt(days);
+var price;
+price = days * 40;
+
+  if(days >= 3  && days < 7)
+  {
+    price = price - 20;
+  }
+  if(days >= 7)
+  {
+    price = price - 50;
+  }
+  
+  console.log(price);
+}
+travelPrice(2);
+travelPrice(3);
+travelPrice(6);
+travelPrice(7);
+travelPrice(8);
+
+

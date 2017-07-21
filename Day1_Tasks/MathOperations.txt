@@ -1,0 +1,9 @@
+function mathOperations(symbol,ope1,ope2){
+var result = ope1 + symbol + ope2
+alert(eval(result));
+}
+
+mathOperations('+',5,5);
+mathOperations('-',5,5);
+mathOperations('/',5,5);
+mathOperations('*',5,5);

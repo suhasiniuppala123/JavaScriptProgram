@@ -1,0 +1,5 @@
+function oppositeNumber(num){   
+   console.log(Math.sign(num)*Math.abs(num)*-1);
+}
+oppositeNumber(5);
+oppositeNumber(-10);
